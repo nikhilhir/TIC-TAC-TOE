@@ -7,7 +7,7 @@ function Board() {
     const [square, setSquare] = useState(Array(9).fill(null));
 
     const [X, setX] = useState(true);
-     const[box,setBox] = useState(false)
+     //const[box,setBox] = useState(false)
     const winner = findWinner(square);
     let status;
     if (winner) {
@@ -29,7 +29,7 @@ function Board() {
             setSquare(squares);
             setX(!X);
         } else {
-            alert("Ruls : You Can't Change Your Move")
+            alert("Ruls :  Can't Change Your Move")
         }
 
     }
@@ -84,14 +84,14 @@ function Board() {
     )
 }
 
-const Visiblebox=(winner,box,setBox)=>{
+const Visiblebox=(winner)=>{
     //https://thumbs.dreamstime.com/b/hand-holding-winner-trophy-sky-background-127107081.jpg
     return(
         <>
        
         <div className="visiblediv" style={{marginTop:"-390px"}}>
        
-        <img className="imgclass" src="https://thumbs.dreamstime.com/b/hand-holding-winner-trophy-sky-background-127107081.jpg"/>
+        <img className="imgclass" src="https://thumbs.dreamstime.com/b/hand-holding-winner-trophy-sky-background-127107081.jpg" alt='img'/>
          <h1>Winner is {winner}</h1>
          {/* <button onClick={() =>setBox(!box)}>Reset</button> */}
         </div>
