@@ -7,7 +7,7 @@
 
 
 <h1>cant't undo</h1>
-![Screenshot (102)](https://user-images.githubusercontent.com/97525857/171873493-d1df59cc-5508-498c-a432-c17ef521539b.png)
+<img src="https://user-images.githubusercontent.com/97525857/171873493-d1df59cc-5508-498c-a432-c17ef521539b.png" />
 
 
 <h1>Winner</h1>
