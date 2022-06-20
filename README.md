@@ -11,4 +11,4 @@
 
 
 <h1>Winner</h1>
-![Screenshot (100)](https://user-images.githubusercontent.com/97525857/171873528-48a7e81b-478f-47f0-8700-07c595567180.png)
+<img src="https://user-images.githubusercontent.com/97525857/171873528-48a7e81b-478f-47f0-8700-07c595567180.png" />
